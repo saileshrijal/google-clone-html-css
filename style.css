@@ -1,0 +1,151 @@
+/* background color code = #202124 */
+/* lower background color code = #171717 */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.upper-section{
+    height: 88vh;
+    width: 100%;
+    background-color: #202124;
+}
+
+.upper-section header{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem;
+}
+
+.upper-section header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+.upper-section header ul li{
+    font-size: 0.9rem;
+}
+
+.upper-section header ul li a{
+    color: white;
+}
+
+.upper-section header ul li a img{
+    border-radius: 50%;
+}
+.grid{
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+
+.banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 7rem;
+}
+.banner .banner-container{
+    margin-bottom: 1rem;
+}
+
+.banner .search-container{
+    margin: 1rem 0;
+    position: relative;
+}
+
+#mic,#search{
+    position: absolute;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#search{
+    top: 0.6rem;
+    left: 1rem;
+}
+
+#mic{
+    top: 0.6rem;
+    right: 1rem;
+}
+
+.banner .search-container input{
+    outline: none;
+    border: 1px solid whitesmoke;
+    background-color: transparent;
+    border-radius: 2rem;
+    height: 2.8rem;
+    width: 35rem;
+}
+
+.banner .search-container input:hover{
+    background-color: #303134;
+    transition: .3s;
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.button-container .btn{
+    padding: 0.6rem 1rem;
+    background-color: #303134;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.banner .lowerText{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.banner .lowerText span{
+    color: blue;
+}
+
+.lower-section{
+    background-color: #171717;
+height: 12vh;
+}
+
+.lower-section .lower1{
+    height: 6vh;
+    border-bottom: 1px solid #9aa0a6;
+    padding: 1rem 1.4rem;
+}
+
+.lower-section .lower1 p{
+    color: #9aa0a6;
+    font-size: 0.9rem;
+}
+
+.lower-section .lower2{
+    height: 6vh;
+    padding: 1rem 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lower-section .lower2 .first-links,
+.lower-section .lower2 .second-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.lower-section li a{
+    color: #9aa0a6;
+}
